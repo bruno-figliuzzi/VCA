@@ -94,12 +94,3 @@ evaluation.add_model("VCA", model, scale=scale)
 evaluation.display()
 evaluation.plot_abundances(HSI.image_shape)
 ```
-
-## Remarques
-
-- Sur Jasper Ridge, VCA (graine 0) sélectionne deux spectres proches de l'eau et aucun
-  pixel de route : l'endmember « Road » a un SAD d'environ 1,09 rad. C'est une limite de
-  l'algorithme (hypothèse de pixel pur), pas un bug.
-- WDM : les cartes d'abondances semblent mal nommées (la carte `#5 Trail` correspond
-  visiblement à l'eau). Les spectres et les cartes sont cohérents entre eux ; seuls
-  les noms sont à vérifier par rapport à la source d'origine.
