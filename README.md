@@ -6,6 +6,9 @@ chargement et visualisation de jeux de données de référence, extraction d'end
 
 ## Installation
 
+> Guide pas à pas (Anaconda, Jupyter, librairies, problèmes fréquents) : [TUTORIEL.md](TUTORIEL.md).
+> Installation rapide avec conda : `conda env create -f environment.yml && conda activate unmixing`.
+
 Python ≥ 3.10. Dépendances :
 
 ```bash
